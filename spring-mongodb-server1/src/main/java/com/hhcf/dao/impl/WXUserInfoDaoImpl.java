@@ -5,8 +5,9 @@ import org.springframework.data.mongodb.core.MongoTemplate;
 import org.springframework.data.mongodb.core.query.Criteria;
 import org.springframework.data.mongodb.core.query.Query;
 import org.springframework.data.mongodb.core.query.Update;
+import org.springframework.stereotype.Repository;
 
-import com.hhcf.dao.WXUserDao;
+import com.hhcf.dao.WXUserInfoDao;
 import com.hhcf.model.WXUserInfo;
 
 /**
@@ -17,7 +18,8 @@ import com.hhcf.model.WXUserInfo;
  * @Since:2017年3月8日 下午4:48:44
  * @Version:1.0
  */
-public class WXUserDaoImpl implements WXUserDao {
+@Repository
+public class WXUserInfoDaoImpl implements WXUserInfoDao {
 
 	@Autowired
 	private MongoTemplate mongoTemplate;

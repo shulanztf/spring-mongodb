@@ -7,6 +7,7 @@ import org.springframework.web.bind.annotation.ResponseBody;
 
 import com.hhcf.service.CommonService;
 import com.hhcf.service.MemberService;
+import com.hhcf.service.WXUserInfoService;
 
 /**
  * 
